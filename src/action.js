@@ -26,10 +26,10 @@ function scrolldiv() {
         style={{ visibility: 'hidden' }}> &lt;</button>
       <article className='innerdiv' id='div1'>
         {arr.map((movies) => {
-          const { image, name } = movies;
+          const { id,image, name } = movies;
           return (
             <div>
-              <Movie movies={movies}></Movie>
+              <Movie key={id} movies={movies}></Movie>
             </div>
           );
         })}

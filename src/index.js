@@ -1,15 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Project from './project';
-import Project1 from './project1';
+import ActionMov from './action';
+import KidsandFam from './kidsandfamily';
+import Bingeworthy from './bingeworthy';
+import Nav from './nav'
 import './index.css';
 
 function MovieList() {
     return(
         <div>
-            <Project/>
-            <Project1/>
-            <Project1/>
+            <Nav/>
+            <ActionMov/>
+            <KidsandFam/>
+            <Bingeworthy/>
+
         </div>
     );
 }
