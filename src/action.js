@@ -28,7 +28,7 @@ function scrolldiv() {
         {arr.map((movies) => {
           const { id,image, name } = movies;
           return (
-            <div>
+            <div key={id}>
               <Movie key={id} movies={movies}></Movie>
             </div>
           );
