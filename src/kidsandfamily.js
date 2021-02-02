@@ -17,7 +17,7 @@ function scrolldiv() {
     item.scrollBy({ left: -900, top: 0, behavior: 'smooth' });
   }
   return (
-    <div>
+    <div className="kandd">
       <h3 style={{marginTop:'4.5rem'}}>{descheadkids}</h3>
       <button type='button' className='butt' onClick={scrolldiv}>&gt;</button>
       <button type='button' className='butt1' id='butt2' onClick={scrolldiv1}
@@ -27,7 +27,7 @@ function scrolldiv() {
           const { id,image, name } = movies;
           return (
             <div key={id}>
-              <Movie key={id} movies={movies}></Movie>
+              <Movie movies={movies}></Movie>
             </div>
           );
         })}

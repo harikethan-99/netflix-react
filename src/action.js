@@ -17,19 +17,19 @@ function scrolldiv() {
     item.scrollBy({ left: -900, top: 0, behavior: 'smooth' });
   }
   return (
-    <div>
-      <nav></nav>
-      <h1>{deschead}</h1>
-      <h3>{desc}</h3>
+    <div className="action">
       <button type='button' className='butt' onClick={scrolldiv}>&gt;</button>
       <button type='button' className='butt1' id='butt1' onClick={scrolldiv1}
         style={{ visibility: 'hidden' }}> &lt;</button>
+        <h1>{deschead}</h1>
+      <h3>{desc}</h3>
+      
       <article className='innerdiv' id='div1'>
         {arr.map((movies) => {
           const { id,image, name } = movies;
           return (
             <div key={id}>
-              <Movie key={id} movies={movies}></Movie>
+              <Movie movies={movies}></Movie>
             </div>
           );
         })}

@@ -17,8 +17,7 @@ function scrolldiv() {
     item.scrollBy({ left: -900, top: 0, behavior: 'smooth' });
   }
   return (
-    <div>
-      <nav></nav>
+    <div className="bngworth">
       <h3 style={{marginTop:'4.5rem'}}>{descbinge}</h3>
       <button type='button' className='butt' onClick={scrolldiv}>&gt;</button>
       <button type='button' className='butt1' id='butt3' onClick={scrolldiv1}
