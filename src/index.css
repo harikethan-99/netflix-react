@@ -1,7 +1,73 @@
+.outerdiv {
+  background-color: rgb(24, 24, 24);
+  color: #fff;
+}
+.innerdiv {
+  display: grid;
+}
+.innerdiv h4 {
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-weight: lighter;
+}
+.butt {
+  scroll-behavior: smooth;
+  position: absolute;
+  font-size: 1.5rem;
+  display: inline-block;
+  background-color: rgb(24, 24, 24);
+  color: red;
+  border-style: none;
+}
+.butt1 {
+  scroll-behavior: smooth;
+  position: absolute;
+  font-size: 1.5rem;
+  display: inline-block;
+  background-color: rgb(24, 24, 24);
+  color: red;
+  border-style: none;
+}
+h1 {
+  font-family: sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+}
+h3 {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  line-height: 1.7rem;
+}
+.nav {
+  position: fixed;
+  background-color: #000;
+  top: 0;
+  left: 0;
+}
+.jnow {
+  position: absolute;
+  font-family: sans-serif;
+  border-radius: 3px;
+  border-style: none;
+  font-weight: lighter;
+  background-color: #df0712;
+  color: #fff;
+}
+.sinow {
+  position: absolute;
+  height: 2.5rem;
+  border-radius: 15px;
+  font-family: sans-serif;
+  border-radius: 3px;
+  border-style: outset;
+  font-weight: lighter;
+  background-color: black;
+  color: #fff;
+}
 @media only screen and (max-width: 700px) {
   .outerdiv {
-    background-color: rgb(24, 24, 24);
-    color: #fff;
     width: 100vw;
     height: 100%;
     padding-top: 0.5rem;
@@ -11,7 +77,6 @@
     width: 10rem;
   }
   .innerdiv {
-    display: grid;
     grid-template-columns: 11rem 11rem 11rem 11rem 11rem 11rem 11rem 11rem 11rem 11rem 11rem 11rem 11rem 11rem 11rem 11rem;
     margin-left: 1rem;
     margin-top: 1.5rem;
@@ -25,65 +90,36 @@
     margin-top: -2rem;
   }
   .innerdiv h4 {
-    font-family: sans-serif;
-    font-weight: bold;
     margin-top: 0rem;
     margin-bottom: 1.5rem;
-    text-align: center;
-    font-weight: lighter;
   }
   .butt {
-    scroll-behavior: smooth;
-    position: absolute;
-    font-size: 1.5rem;
-    display: inline-block;
     margin-top: 4rem;
     margin-left: 4rem;
-    background-color: rgb(24, 24, 24);
-    color: red;
-    border-style: none;
     width: 2rem;
     visibility: hidden;
     height: 2rem;
   }
   .butt1 {
     visibility: hidden;
-    scroll-behavior: smooth;
-    position: absolute;
-    font-size: 1.5rem;
-    display: inline-block;
     margin-top: 4rem;
     margin-left: 0rem;
-    background-color: rgb(24, 24, 24);
-    color: red;
-    border-style: none;
     width: 2rem;
     height: 2rem;
   }
   h1 {
     margin-left: 1rem;
-    font-family: sans-serif;
-    font-size: 2rem;
     margin-top: 3rem;
-    font-weight: 800;
     width: auto;
   }
   h3 {
     margin-left: 1rem;
-    font-family: sans-serif;
-    font-size: 1.2rem;
     width: auto;
     margin-right: 1rem;
-    line-height: 1.7rem;
     margin-top: 1rem;
     margin-bottom: 0rem;
-    font-weight: lighter;
   }
   .nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #000;
     height: 3rem;
     margin-top: 0rem;
     width: 100vw;
@@ -97,46 +133,27 @@
     margin-top: 0;
   }
   .jnow {
-    position: absolute;
+    font-size: 15px;
     height: 2.5rem;
     width: 6rem;
-    font-family: sans-serif;
-    border-radius: 3px;
-    border-style: none;
-    font-weight: lighter;
-    font-size: 15px;
     margin-left: 5.5rem;
     margin-top: 0.25rem;
-    background-color: #df0712;
-    color: #fff;
   }
   .sinow {
-    position: absolute;
-    height: 2.5rem;
-    width: 6rem;
-    border-radius: 15px;
-    font-family: sans-serif;
-    border-radius: 3px;
-    border-style: outset;
-    font-weight: lighter;
     font-size: 15px;
+    width: 6rem;
     margin-left: 12rem;
     margin-top: 0.25rem;
-    background-color: black;
-    color: #fff;
   }
 }
 @media only screen and (min-width: 700px) {
   .outerdiv {
-    background-color: rgb(24, 24, 24);
-    color: #fff;
     width: 468px;
     height: 100%;
     padding-top: 0.5rem;
     overflow-x: scroll;
   }
   .innerdiv {
-    display: grid;
     grid-template-columns: 19.5rem 19.5rem 19.5rem 19.5rem 19.5rem 19rem 19rem 19rem 19rem 19rem 19rem 19rem 19rem 19rem 19rem 19rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -144,68 +161,39 @@
     overflow-x: scroll;
   }
   .innerdiv h4 {
-    font-family: sans-serif;
-    font-weight: bold;
     margin-top: 0.25rem;
-    text-align: center;
-    font-weight: lighter;
   }
   .butt {
-    scroll-behavior: smooth;
-    position: absolute;
-    font-size: 1.5rem;
-    display: inline-block;
     margin-top: 4rem;
     margin-left: 20rem;
-    background-color: rgb(24, 24, 24);
-    color: red;
-    border-style: none;
     width: 2rem;
     visibility: hidden;
     height: 2rem;
   }
   .butt1 {
     visibility: hidden;
-    scroll-behavior: smooth;
-    position: absolute;
-    font-size: 1.5rem;
-    display: inline-block;
     margin-top: 4rem;
     margin-left: 0rem;
-    background-color: rgb(24, 24, 24);
-    color: red;
-    border-style: none;
     width: 2rem;
     height: 2rem;
   }
   h1 {
     margin-left: 1rem;
-    font-family: sans-serif;
-    font-size: 2rem;
     margin-top: 4rem;
-    font-weight: 800;
     width: 100%;
   }
   h3 {
     margin-left: 1rem;
-    font-family: sans-serif;
-    font-size: 1.2rem;
     width: 90vw;
     margin-right: 1rem;
-    line-height: 1.7rem;
     margin-top: -1rem;
     margin-bottom: 1rem;
-    font-weight: lighter;
   }
   .nav {
-    top: 0px;
-    position: fixed;
-    background-color: #000;
     height: 3rem;
     width: 100%;
     margin-top: 0rem;
     padding: 0.5rem;
-    z-index: 1;
     margin-left: -1rem;
   }
   .nav img {
@@ -214,32 +202,18 @@
     height: 3rem;
   }
   .jnow {
-    position: absolute;
-    height: 2.5rem;
-    width: 7rem;
-    font-family: sans-serif;
-    border-radius: 3px;
-    border-style: none;
-    font-weight: lighter;
     font-size: 15px;
+    width: 7rem;
+    height: 2.5rem;
     margin-left: 19rem;
     margin-top: 0rem;
-    background-color: #df0712;
-    color: #fff;
   }
   .sinow {
-    position: absolute;
     height: 2.5rem;
     width: 7rem;
-    font-family: sans-serif;
-    border-radius: 3px;
-    border-style: outset;
-    font-weight: lighter;
     font-size: 15px;
     margin-left: 27rem;
     margin-top: 0rem;
-    background-color: black;
-    color: #fff;
   }
   .action {
     margin-top: 3rem;
