@@ -19,9 +19,9 @@ function scrolldiv() {
   return (
     <div className="kandd">
       <h3 style={{marginTop:'4.5rem'}}>{descheadkids}</h3>
-      <button type='button' className='butt' onClick={scrolldiv}>&gt;</button>
+      <button type='button' className='butt' onClick={scrolldiv} style={{marginTop:"5vw"}}>&gt;</button>
       <button type='button' className='butt1' id='butt2' onClick={scrolldiv1}
-        style={{ visibility: 'hidden' }}> &lt;</button>
+        style={{ visibility: 'hidden',marginTop:"4vw" }}> &lt;</button>
       <article className='innerdiv' id='div2'>
         {arr1.map((movies) => {
           const { id,image, name } = movies;

@@ -134,19 +134,20 @@ h3 {
   }
   .jnow {
     font-size: 15px;
-    height: 2.5rem;
+    height: 2rem;
     width: 6rem;
-    margin-left: 5.5rem;
-    margin-top: 0.25rem;
+    margin-left: 25vw;
+    margin-top: 0.5rem;
   }
   .sinow {
     font-size: 15px;
     width: 6rem;
-    margin-left: 12rem;
-    margin-top: 0.25rem;
+    height: 2rem;
+    margin-left: 50vw;
+    margin-top: 0.5rem;
   }
 }
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 700px) and (max-width: 1369px) {
   .outerdiv {
     width: 468px;
     height: 100%;
@@ -157,7 +158,7 @@ h3 {
     grid-template-columns: 19.5rem 19.5rem 19.5rem 19.5rem 19.5rem 19rem 19rem 19rem 19rem 19rem 19rem 19rem 19rem 19rem 19rem 19rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    width: 95vw;
+    width: 94vw;
     overflow-x: scroll;
   }
   .innerdiv h4 {
@@ -205,14 +206,102 @@ h3 {
     font-size: 15px;
     width: 7rem;
     height: 2.5rem;
-    margin-left: 19rem;
-    margin-top: 0rem;
+    margin-left: 45vw;
+    margin-top: 0.25rem;
   }
   .sinow {
     height: 2.5rem;
     width: 7rem;
     font-size: 15px;
-    margin-left: 27rem;
+    margin-left: 61vw;
+    margin-top: 0.25rem;
+  }
+  .action {
+    margin-top: 3rem;
+  }
+  .kandd {
+    margin-top: -4rem;
+  }
+  .bngworth {
+    margin-top: -4rem;
+  }
+}
+@media only screen and (min-width: 1369px) and (max-width: 1920px) {
+  .outerdiv {
+    width: 100vw;
+    height: 100%;
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+  }
+  .innerdiv img {
+    width: 94%;
+    height: 14%;
+  }
+  .innerdiv {
+    grid-template-columns: 19.5rem 19.5rem 19.5rem 19.5rem 19.5rem 19.5rem 19.5rem 19.5rem 19.5rem 19.5rem;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    width: 90vw;
+    overflow-x: hidden;
+  }
+  .innerdiv h4 {
+    margin-top: 0.25rem;
+  }
+  .butt {
+    /* margin-top: 21rem; */
+    margin-left: 95vw;
+    width: 2rem;
+    z-index: 0;
+    visibility: visible;
+    height: 2rem;
+  }
+  .butt1 {
+    visibility: hidden;
+    margin-top: 17rem;
+    margin-left: 1rem;
+    width: 2rem;
+    height: 2rem;
+  }
+  h1 {
+    margin-left: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+    transform: scaleY(1.3);
+    width: 40%;
+  }
+  h3 {
+    margin-left: 3rem;
+    width: 40vw;
+    margin-right: 1rem;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+  }
+  .nav {
+    height: 3rem;
+    width: 100vw;
+    z-index: 1;
+    margin-top: 0rem;
+    padding: 0.5rem;
+    margin-left: -1rem;
+  }
+  .nav img {
+    margin-left: 4rem;
+    width: 8rem;
+    height: 3rem;
+  }
+  .jnow {
+    position: absolute;
+    font-size: 15px;
+    width: 9vw;
+    height: 2.5rem;
+    margin-left: 58vw;
+  }
+  .sinow {
+    position: absolute;
+    height: 2.5rem;
+    width: 9vw;
+    font-size: 15px;
+    margin-left: 68vw;
     margin-top: 0rem;
   }
   .action {
@@ -223,5 +312,13 @@ h3 {
   }
   .bngworth {
     margin-top: -4rem;
+  }
+}
+@media only screen and (min-width: 1350px) {
+  .butt {
+    margin-top: 15rem;
+  }
+  .butt1 {
+    margin-top: 15rem;
   }
 }
